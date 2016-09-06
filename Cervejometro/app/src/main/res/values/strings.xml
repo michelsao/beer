@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cervejometro</string>
+    <string name="lbl_orcamento">Orçamento Total(Opcional)</string>
+    <string name="lbl_latao">Latão(473ml)</string>
+    <string name="lbl_latinha">Latinha(350ml)</string>
+    <string name="lbl_preço">Preço</string>
+    <string name="lbl_casco">Casco(600ml)</string>
+    <string name="lbl_calcular">Calcular</string>
+    <string name="lbl_result">Resultado</string>
+    <string name="lbl_megalatao">Mega-Latão (550ml)</string>
+    <string name="lbl_longneck">Long-neck(355ml)</string>
+    <string name="lbl_litrao">Litrão(1L)</string>
+    <string name="lbl_add">Add</string>
+    <string name="lbl_content_sobre">Descrição do app \n
+    quebra \n
+        quebra 2\/\n
+        \n
+        o/\n
+        \n
+        linha inteira teste alo alo w brasil jacarezinho aviao tira essa escada dai
+    </string>
+    <string name="lbl_testscroll">1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\nfim</string>
+    <string name="lbl_Resultado">Resultado</string>
+</resources>

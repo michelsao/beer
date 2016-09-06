@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calculadora Rápida"
+        android:id="@+id/sel_FastCalc"
+        android:layout_weight="0.12"
+        android:clickable="true"
+        android:autoText="false"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/sel_fullCalc"
+        android:layout_weight="0.12"
+        android:clickable="true"
+        android:autoText="false"
+        android:text="Calculadora Completa"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/sel_custom"
+        android:layout_weight="0.12"
+        android:clickable="true"
+        android:autoText="false"
+        android:text="Medidas Personalizadas"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/sel_Instr"
+        android:layout_weight="0.12"
+        android:clickable="true"
+        android:autoText="false"
+        android:text="Instruções"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/sel_Sobre"
+        android:clickable="true"
+        android:autoText="false"
+        android:text="Sobre"
+        android:gravity="center"
+        android:layout_weight="0.12" />
+</LinearLayout>

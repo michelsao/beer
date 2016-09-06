@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/img_foto_list"
+        android:layout_weight="0.06" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/txt_nome"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txt_vol"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_cifrao2"
+        android:src="@drawable/cifrao"
+        android:layout_weight="1.16"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@drawable/cifrao" />
+
+    <EditText
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/edt_price"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="-5dp"
+        android:textAlignment="center"
+        android:hint="R$0,00"
+        android:descendantFocusability="beforeDescendants"
+        android:textColor="#79000000"
+        android:layout_marginRight="15dp"
+        android:digits="0123456789,."
+        android:inputType="numberDecimal" />
+
+</LinearLayout>
